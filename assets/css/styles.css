@@ -1,7 +1,18 @@
-h2 {
-    color: green
-  
+#main-header-box {
+    float:left; 
+    background-color: green;
+     width:20%;
+     padding: 5%;
+     position: relative;
 }
-main-header-name {
-    background-color: pink
+
+#main-header-name {
+    position: absolute;
+    top: 50%;                         
+    transform: translate(30%, -70%);
+    
+    color: blanchedalmond;
+}
+.header-nav {
+    float: right;
 }
