@@ -58,16 +58,18 @@ h6 {
     float: right;
 }
 .header-content {
-width: 981px;
+width: 960px;
     margin: 0 auto;
     background-color: #ffffff;
     
 }
 
 .section {
-    position: relative;
+    position: absolute;
     width: 960px;
-    margin: 0 auto;
+    left: 50%;
+    margin-left: -480px;
+    
     background-color: #ffffff;
     top: 30px;
     bottom: 30px;
