@@ -4,6 +4,14 @@
 
 .main-container {
     background-image: url(/assets/images/qbkls.png);
+    width: 100%; 
+    position: absolute;
+    overflow: auto;
+    bottom: 45px;
+    top: 114px;
+   
+    
+    
     
 }
 
@@ -19,6 +27,10 @@ h6 {
     background-color: #4aaaa5;
 }
 
+.teal-text {
+    color: #4aaaa5;
+}
+
 .white-text {
     color: #ffffff;
 }
@@ -29,31 +41,43 @@ h6 {
 
 .main-header-name {
     float: left;
-    padding: 20px;
+    padding: 26.5px;
     margin-bottom: 0;
+    margin-left: 0;
 }
 
 .header {
-    background-color: #ffffff
+    background-color: #ffffff;
     width: 100vw;
     height: 100px;
-    border: 5px solid red;
+    border-bottom: 5px solid #cccccc;
+    margin-bottom: 0;
 }
+
 .header-nav {
     float: right;
 }
+.header-content {
+width: 981px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    
+}
 
-.header-content,
 .section {
+    position: relative;
     width: 960px;
-    margin: auto;
-    background-color: #ffffff 
+    margin: 0 auto;
+    background-color: #ffffff;
+    top: 30px;
+    bottom: 30px;
 }
 
 .header-content {
     height: 100px;
-    
+      
 }
+
 .header-nav li {
     float: left;
     list-style-type: none;
@@ -71,11 +95,16 @@ a:hover {
 }
 
 .footer {
+    position: absolute;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-    width: 100vw;
+    width: 100%;
     height: 40px;
     margin: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    
 }
 
 .footer p {
@@ -93,4 +122,12 @@ a:hover {
  .section {
      height: 500px;
     
+ }
+
+ .container-head {
+    position: relative;
+    width: 95%;
+     border-bottom: 5px solid #cccccc; 
+     margin: 0 auto;
+     top: 20px;
  }
