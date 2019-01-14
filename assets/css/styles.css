@@ -5,6 +5,7 @@
 .main-container {
     background-image: url(/assets/images/qbkls.png);
     width: 100%; 
+    min-height: 960px;
     position: absolute;
     overflow: auto;
     bottom: 45px;
@@ -68,11 +69,12 @@ width: 960px;
     position: absolute;
     width: 960px;
     left: 50%;
-    margin-left: -480px;
-    
+    margin-left: -475px;
+    height: 600px;
     background-color: #ffffff;
     top: 30px;
     bottom: 30px;
+    overflow: hidden;
 }
 
 .header-content {
@@ -97,13 +99,13 @@ a:hover {
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     width: 100%;
     height: 40px;
     margin: 0;
-    left: 0;
+
     bottom: 0;
     overflow: hidden;
     
@@ -121,15 +123,23 @@ a:hover {
     display: table;
   }
 
- .section {
-     height: 500px;
-    
- }
-
  .container-head {
     position: relative;
     width: 95%;
      border-bottom: 5px solid #cccccc; 
      margin: 0 auto;
      top: 20px;
+ }
+
+ .about-me img {  
+     height: 200px;
+     width: 200 px;
+     float:left;
+     margin: 30px 15px 20px 30px;
+        
+ }
+
+ .about-me p {
+    margin: 30px 30px 20px 30px;
+   
  }
