@@ -131,15 +131,24 @@ a:hover {
      top: 20px;
  }
 
+ .about-me {
+     width: 95%;
+     position: relative;
+     top: 20px;
+     bottom: 30px;
+     margin: 0 auto;
+     
+ }
  .about-me img {  
      height: 200px;
      width: 200 px;
      float:left;
-     margin: 30px 15px 20px 30px;
+     padding-right:20px;
+     
         
  }
 
  .about-me p {
-    margin: 30px 30px 20px 30px;
+   
    
  }
