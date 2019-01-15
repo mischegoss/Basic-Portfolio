@@ -5,7 +5,6 @@
 .main-container {
     background-image: url(/assets/images/qbkls.png);
     width: 100vw; 
-    border: 5px solid red;
     height: 960px;
     position: absolute;
     overflow: scrolling;
@@ -87,7 +86,6 @@ width: 960px;
 #box-4,
 #box-5 {
     float: left;
-    border: 5px solid red;
 }
 
 
