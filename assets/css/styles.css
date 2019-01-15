@@ -175,4 +175,20 @@ a:hover {
 }
    
    
- 
+.box {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-image: url(../images/aboutme.jpg)
+}
+
+.box h2 {
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    top: 210px;
+}
+
+#portfolio-height {
+    height: 1200px;
+}
