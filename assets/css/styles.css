@@ -14,9 +14,6 @@
  
 }
 
-#portfolio-container {
-    height: 1500px;
-}
 h1,
 h2,
 h3,
@@ -67,6 +64,10 @@ width: 960px;
 }
 #portfolio-height {
     height: 1200px;
+}
+
+#portfolio-container {
+    height: 1500px;
 }
 .section {
     position: absolute;
@@ -242,3 +243,4 @@ a:hover {
 .box a:hover {
     color: #666666;
 }
+
