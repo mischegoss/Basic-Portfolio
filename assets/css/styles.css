@@ -143,6 +143,21 @@ a:hover {
     padding-right:20px;      
 }
 
+.about-me p {
+    font-size: 20px;
+}
+
+a:link,
+a:visited,
+ a:active {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #777777;
+}
+
 /*This is the styling specific to the Portfolio section */
 
 .portfolio {
