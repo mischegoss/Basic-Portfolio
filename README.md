@@ -1,2 +1,8 @@
-# Basic-Portfolio
-First homework assignment for Columbia Bootcamp.  Due Jan.  19
+# Project Overview
+
+This project is the first project for Columbia Engineering Web Development Bootcamp.
+It is  a static website  using HTML and CSS.  
+
+## Dependencies
+
+None.
