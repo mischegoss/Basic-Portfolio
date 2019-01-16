@@ -147,14 +147,14 @@ a:hover {
     font-size: 20px;
 }
 
-a:link,
-a:visited,
- a:active {
+.about-me a:link,
+.about-me a:visited,
+.about-me a:active {
     color: #4aaaa5;
     text-decoration: none;
 }
 
-a:hover {
+.about-me a:hover {
     color: #777777;
 }
 
@@ -201,6 +201,28 @@ a:hover {
     float: left;
 
 }
+
+/* 
+#######################
+I attempted to stay as close to spec as I could in this first assignment 
+and to use positioning as taught in class. The one area where I struggled
+was in creating a section that would grow as it held more content. I  thought
+min-height would work but it did not, so I assigned specific values to height
+instead, which seems like a clunky solution.  
+
+How could I have done that better?
+
+I look forward to your review and thanks for taking the time to look at it.
+
+Tamar
+
+##########################
+*/
+
+
+
+
+
 
 #box-3 {
     background-image: url(../images/coding_blue_white.jpg);
